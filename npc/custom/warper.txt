@@ -24,13 +24,13 @@ function Go; function Disp; function Pick; function Restrict;
 // --------------------------------------------------
 
 menu	"Last Warp ^777777["+lastwarp$+"]^000000",-,
-    	" ~ Towns",Towns,
-    	" ~ Fields",Fields,
+    	" ~ Cidades",Towns,
+    	" ~ Campos",Fields,
     	" ~ Dungeons",Dungeons,
     	" ~ Guild Castles",Castles,
     	" ~ Guild Dungeons",Guild_Dungeons,
-    	" ~ Instances",Instances,
-    	" ~ Special Areas",Special;
+    	" ~ Instâncias",Instances,
+    	" ~ Áreas Especiais",Special;
 
 	if (lastwarp$ == "")
 		message strcharinfo(0),"You haven't warped anywhere yet.";

@@ -1,0 +1,2 @@
+epay_dun00l,0,0,0,0	monster	Bathory	1102,300,5000,10000,0
+epay_dun00l,0,0,0,0	monster	Waste Stove	1617,300,5000,10000,0
