@@ -13,8 +13,8 @@ jobs:
             - name: change directory
               run: cd /home/ragserver/actions-runner/rathena-server/rathena/rathena
             - name: pause server
-              run: ./athena-stop stop
-            - name: configure permissions
+              #run: ./athena-stop stop
+              #- name: configure permissions
               run: chmod a+x ./configure
             - name: configure
               run: ./configure --enable-packetver=20180620
