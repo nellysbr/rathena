@@ -22,8 +22,8 @@ jobs:
               run: make clean
             - name: compila build
               run: make server
-            - name: give permissions
-              run: chmod a+x login-server && sudo chmod a+x char-server && sudo chmod a+x map-server
+            #- name: give permissions
+            #run: chmod a+x login-server && sudo chmod a+x char-server && sudo chmod a+x map-server
             - name: run server
               run: ./athena-start start
 # wokflow-run-server.yml
